@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('/fontes/idroid.otf') format('opentype');
+}
+
+.texto{
+    font-family: 'idroid';
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: rgb(183, 243, 205);
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d;
+}
+
+body {
+    background-color: #c5ebd6;
+}
+
+header > h1 {
+    color: #2fa886;
+}
+
+main > h1 {
+    color: #1a5c37;
+}
